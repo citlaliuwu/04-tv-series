@@ -1,0 +1,248 @@
+
+.image-container {
+  position: relative;
+}
+
+.serie-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ver {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fs-4{
+  display: flex;
+  font-size: 60;
+  font-weight: regular;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-wrap{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 60;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #001056;
+  border: none;
+}
+
+.card-name{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  font-size: 60;
+  font-weight: regular;
+  color: #ffffff;
+  background-color: #0040566f;
+  border: none;
+  border-radius: 1px;
+}
+
+
+.card-price {
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.search-bar {
+  margin-bottom: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 20px;
+  font-size: px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+}
+
+.series-cast-container {
+  overflow-x: auto;
+  max-width: 50%;
+  margin-top: 40px;
+}
+
+.series-cast {
+  display: flex;
+}
+
+.actor {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.actor-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20%;
+}
+
+.actor-name {
+  color: white;
+  text-align: center;
+}
+
+.series-section{
+  color: white;
+}
+
+.series-header-summary{
+  color: white;
+}
+
+.series-header-title{
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.image-container {
+  position: relative;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 200px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.serie-name{
+  color: #0091cb;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.serie-card:hover .overlay {
+  opacity: 1;
+}
+
+.view-episodes-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.serie-card-container {
+  flex: 1;
+  padding: 0 25px; /* Espacio entre las imágenes */
+}
+
+.serie-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-image {
+  width: 300%;
+  height: auto;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  font-weight: bold;
+}
+
+.series-header-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+}
+
+.series-header-image-container {
+  width: 300px;
+}
+
+.series-header-summary-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.series-header-summary {
+  margin-top: 20px;
+}
+
+.series-section h4 {
+  margin-top: 40px;
+}
+
+.series-section h4 {
+  margin-top: 40px;
+}
+
+.temporadas {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.temporadas button {
+  background-color: #1b0e8f;
+  color: white;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
